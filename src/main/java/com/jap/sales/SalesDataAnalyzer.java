@@ -37,7 +37,7 @@ public class SalesDataAnalyzer {
                 int clicks_in_site = Integer.parseInt(change[6]);
 
                 salesRecords[index] = new SalesRecord(date,customer_id,product_category,payment_method,amount,time_on_site,clicks_in_site);
-                index++;
+                index++ ;
             }
         }catch(FileNotFoundException e){
             e.printStackTrace();
